@@ -1,0 +1,30 @@
+.main-header{
+    background-color:red;
+    height:75px;
+    border-radius:10px;
+    margin:2px;
+}
+
+#titulo{text-align:center}
+
+
+
+.main-content{
+    background-color:white;
+    display:grid; 
+    grid-template-columns: auto auto;
+    margin:4px;
+}
+
+#sidebar-navigation{
+    background-color: blue;
+    border-radius:10px;
+    height:70vh;
+    width:300px;
+}
+
+.rodape{
+    background-color:green;
+    border-radius:10px;
+    height:100px;
+}

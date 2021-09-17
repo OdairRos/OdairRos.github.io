@@ -8,24 +8,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karantina&family=Special+Elite&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+   
     <style>  
 
         html, body{min-height: 100%;}
         body{padding:0;margin:0;}
         a{margin-left:20px;}
         @keyframes cl{25%{color:rgb(255, 0, 200);}}
-        footer{bottom:0; padding-top:400px;text-align: center;}
-
+        footer{bottom:0; padding-top:350px;text-align: center; color:white; font-size:16pt}
+        section{background-color:red;}
         header{
             font-family: 'Special Elite', cursive;
             animation:  cl 2s infinite;
-            border-bottom: 1px solid rgb(156, 153, 153);
             margin-bottom: 100px;
             text-align: center;}
-
 
         .cards{
             border: 1px solid black;
@@ -48,7 +44,9 @@
             color:white;
             font-weight:bolder;
             font-family: 'Special Elite', cursive;}
-
+        
+        h1{font-size:40pt}
+        body{background: url(/milky-way-2695569_1920.jpg) no-repeat center}
         .container{
             display: grid;
             grid-template-columns: auto auto auto;
@@ -57,23 +55,28 @@
             left: 50%;
             margin-right: -50%;
             transform: translate(-50%, -50%)}
-        cite{
+        blockquote{
             font-size: 10pt;
             animation: cl 1s infinite;
+            position: absolute;
+            bottom:0;
         }
-        
+
+        .links{
+            font-size: 14pt
+        }
 
     </style>
 </head>
 <body>
     <header>
-        <h1>Polyglotips</h1>
-        <a href="index.html" id='link'>Artigos </a>
-        <a href="#about"> sobre o blog</a>
-        
+        <div>
+            <h1>Polyglotips</h1>
+            <a href="index.html" class='links' id='link'>Artigos </a>
+            <a href="#about" class='links'> sobre o blog</a>
+        </div>
     </header>
     <section>
-
         <div class="container">
             <a href="poliglotas.html">
                 <div class='cards' id='card1'>
@@ -95,11 +98,10 @@
     <footer>
         <h2 id='about'>O que é polyglotips?</h2>
         Polyglotips é um site onde se fala sobre o poliglotismo. Artigos sobre poliglotas, definições e mais dadoscuriosos para aprender e conhecer mais deste mundo
-        <br><br>
-        <cite>&copyOdairJ code this with Belén</cite>
     </footer>
 
-
-
+    <blockquote>
+        <cite>&copyOdairJ code this with Belén</cite>
+    </blockquote>
 </body>
 </html>
